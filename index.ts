@@ -28,5 +28,10 @@ const  checkEvenNum=(num:number):boolean=>{
 
 checkEvenNum(4);
 
+// ANY TYPE
+
+let num:any = 2;
+num = "Ahmed"
+
 
 
