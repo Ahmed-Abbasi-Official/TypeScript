@@ -1,10 +1,10 @@
 // SIMPLE FUNCTON
 
-function greet(name:string,num:number){
+function greet1(name:string,num:number){
     return `Welcome! ${name} you score is ${num}`
 }
 
-console.log(greet("Ahmed",2));
+console.log(greet1("Ahmed",1));
 
 // DEFAULT PARAM
 

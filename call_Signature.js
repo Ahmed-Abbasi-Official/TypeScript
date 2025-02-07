@@ -1,10 +1,15 @@
+"use strict";
 // * CALL SIGNATURE
-var student1 = {
+const student1 = {
     name: "Ahmed Abbasi",
-    age: 20
+    age: 21,
+    greet: (country) => {
+        return `Welcome! My name is ${student1.name}, I am ${student1.age} yrs old & I am from ${country}`;
+    }
 };
-var introduction = function (student1) {
-    var name = student1.name, age = student1.age;
-    return "Welcome! My name is ".concat(name, ", I am ").concat(age, "yrs old.");
+const introduction = (student1) => {
+    const { name, age } = student1;
+    return `Welcome! My name is ${name}, I am ${age} yrs old.`;
 };
 console.log(introduction(student1));
+console.log(student1.greet("Pakistan"));
