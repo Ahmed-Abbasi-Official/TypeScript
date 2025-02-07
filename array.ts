@@ -25,5 +25,3 @@ console.log(doubleNumber)
 
 const numberToString:string[] = number.map((curVal:number)=>curVal?.toString());
 console.log(numberToString);
-
-
